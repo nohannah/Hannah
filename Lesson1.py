@@ -32,6 +32,20 @@ Dead=Sec_y/death
 Im=Sec_y/immigrate
 population =( (Birth+Im)-Dead) + 312032486
 print("Total population in US:",population)
-#6
-name=input("Enter your first name:")
-print("Hello:",name)
+# #exer6
+# name=input("Enter your first name:")
+# print("Hello:",name)
+# #exer7
+# L_name=input("Enter last name:")
+# F_name=input("Enter first name :")
+# print("Hello:",L_name,F_name)
+# #exer8
+# num1=int(input("num1:"))
+# num2=int(input("num2:"))
+# print("The total is :",num1 ,num2)
+#Exer9 
+Kg=2.204
+W=float(input("Enter weight:"))
+total=(Kg*W)
+
+print("The total is:",total)
