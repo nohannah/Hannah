@@ -50,3 +50,9 @@ print("Total population in US:",population)
 
 # print("The total is:",total)
 #exer10
+from math import pi 
+radius=2
+lenght=6
+area=radius * radius * pi
+volume=area*lenght
+print(area,volume)
