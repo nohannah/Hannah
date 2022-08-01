@@ -18,7 +18,20 @@ t=(45/60)+(30/3600)
 v=d/t 
 print("The average speed is :",v)
 #ex5
-#calculate in a day 
-birth=3600/6 
+#set variable
+sec=3600
+H=24
+D=365
+birth= 6
 death=15 
 immigrate=45 
+#compute a day 
+Sec_y=sec*H*D 
+Birth=Sec_y/birth
+Dead=Sec_y/death
+Im=Sec_y/immigrate
+population =( (Birth+Im)-Dead) + 312032486
+print("Total population in US:",population)
+#6
+name=input("Enter your first name:")
+print("Hello:",name)
