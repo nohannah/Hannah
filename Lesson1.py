@@ -44,8 +44,9 @@ print("Total population in US:",population)
 # num2=int(input("num2:"))
 # print("The total is :",num1 ,num2)
 #Exer9 
-Kg=2.204
-W=float(input("Enter weight:"))
-total=(Kg*W)
+# Kg=2.204
+# W=float(input("Enter weight:"))
+# total=(Kg*W)
 
-print("The total is:",total)
+# print("The total is:",total)
+#exer10
