@@ -56,3 +56,10 @@ lenght=6
 area=radius * radius * pi
 volume=area*lenght
 print(area,volume)
+# Exer11
+# M=input("enter amount of water in kilograms:")
+# user1=input("Enter the final temerpatire of the water:")
+# final_Tem=("Enter the amount of water:")
+# Q=M*(final_Tem-user1)*4184
+# print(Q)
+
