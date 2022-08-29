@@ -28,9 +28,20 @@
 #Reverse string from back to front
 # str = "Hello"
 # print(str[::-1])
-from math import pi
-R=int(input("Radius number:"))
-Deapth=int(input("Deapth number: "))
-C= pi*pow(R,2)
-Volume= C* Deapth 
-print(format(Volume,".2f"))
+# from math import pi
+# R=int(input("Radius number:"))
+# Deapth=int(input("Deapth number: "))
+# C= pi*pow(R,2)
+# Volume= C* Deapth 
+# print(format(Volume,".2f"))
+# sum=2+3
+# print(sum)
+# s='2'+'3'
+# print(s)
+from Lesson1 import H
+
+
+first_name=str(input("Enter your first name with smaller letter:"))
+last_name=str(input("Enter the last name with smaller letter:"))
+P=str(first_name.upper + last_name.upper)
+print(P)
