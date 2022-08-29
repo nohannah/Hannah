@@ -26,6 +26,11 @@
 # Address = "House #12\nStreet 292\nOld town"
 # print(Address)
 #Reverse string from back to front
-str = "Hello"
-print(str[::-1])
-
+# str = "Hello"
+# print(str[::-1])
+from math import pi
+R=int(input("Radius number:"))
+Deapth=int(input("Deapth number: "))
+C= pi*pow(R,2)
+Volume= C* Deapth 
+print(format(Volume,".2f"))
