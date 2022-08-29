@@ -30,7 +30,7 @@
 # print(str[::-1])
 # from math import pi
 # R=int(input("Radius number:"))
-# Deapth=int(input("Deapth number: "))
+# Deapth=int(input("Deapth number: s"))
 # C= pi*pow(R,2)
 # Volume= C* Deapth 
 # print(format(Volume,".2f"))
@@ -40,5 +40,4 @@
 # print(s)
 first_name=str(input("Enter your first name with smaller letter:"))
 last_name=str(input("Enter the last name with smaller letter:"))
-X = first_name + last_name
-print(X.upper)
+print(first_name.upper(),last_name.upper())
